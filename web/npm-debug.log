@@ -1,0 +1,68 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   '-g',
+1 verbose cli   'surge' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.4
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose read json C:\Users\tsi\AppData\Roaming\npm\package.json
+6 verbose read json C:\Users\tsi\AppData\Roaming\npm\package.json
+7 verbose cache add [ 'surge', null ]
+8 verbose cache add name=undefined spec="surge" args=["surge",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'surge',
+9 verbose parsed url   path: 'surge',
+9 verbose parsed url   href: 'surge' }
+10 silly lockFile c5b9c04c-surge surge
+11 verbose lock surge C:\Users\tsi\AppData\Roaming\npm-cache\c5b9c04c-surge.lock
+12 silly lockFile c5b9c04c-surge surge
+13 silly lockFile c5b9c04c-surge surge
+14 verbose addNamed [ 'surge', '' ]
+15 verbose addNamed [ null, '' ]
+16 silly lockFile 8e9873ba-surge surge@
+17 verbose lock surge@ C:\Users\tsi\AppData\Roaming\npm-cache\8e9873ba-surge.lock
+18 silly addNameRange { name: 'surge', range: '', hasData: false }
+19 verbose url raw surge
+20 verbose url resolving [ 'https://registry.npmjs.org/', './surge' ]
+21 verbose url resolved https://registry.npmjs.org/surge
+22 info trying registry request attempt 1 at 07:12:30
+23 http GET https://registry.npmjs.org/surge
+24 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+25 info trying registry request attempt 2 at 07:12:41
+26 http GET https://registry.npmjs.org/surge
+27 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+28 info trying registry request attempt 3 at 07:13:42
+29 http GET https://registry.npmjs.org/surge
+30 silly lockFile 8e9873ba-surge surge@
+31 silly lockFile 8e9873ba-surge surge@
+32 error Error: CERT_UNTRUSTED
+32 error     at SecurePair.<anonymous> (tls.js:1283:32)
+32 error     at SecurePair.EventEmitter.emit (events.js:92:17)
+32 error     at SecurePair.maybeInitFinished (tls.js:896:10)
+32 error     at CleartextStream.read [as _read] (tls.js:430:15)
+32 error     at CleartextStream.Readable.read (_stream_readable.js:294:10)
+32 error     at EncryptedStream.write [as _write] (tls.js:344:25)
+32 error     at doWrite (_stream_writable.js:211:10)
+32 error     at writeOrBuffer (_stream_writable.js:201:5)
+32 error     at EncryptedStream.Writable.write (_stream_writable.js:172:11)
+32 error     at write (_stream_readable.js:547:24)
+33 error If you need help, you may report this log at:
+33 error     <http://github.com/isaacs/npm/issues>
+33 error or email it to:
+33 error     <npm-@googlegroups.com>
+34 error System Windows_NT 6.2.9200
+35 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "-g" "surge"
+36 error cwd E:\Compressed\Flutter_Web_With_Firebase_Login-master\web
+37 error node -v v0.10.4
+38 error npm -v 1.2.18
+39 verbose exit [ 1, true ]
